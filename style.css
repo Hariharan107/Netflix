@@ -111,8 +111,8 @@ body {
   .logo{
    position: relative;
    bottom: 40px;
-   height: 110px;
-   width: 210px;
+   height: 145px;
+   width: 260px;
   }
   .featured::after {
     content: '';
