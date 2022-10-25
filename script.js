@@ -103,7 +103,7 @@ fetchMovies=async(url, dom_element, path_type)=>
   // ** Function that fetches Netflix Originals **
    getOriginals=()=> {
      let url=`https://api.themoviedb.org/3/discover/tv?api_key=19f84e11932abbc79e6d83f82d6d1045&with_networks=213`
-    fetchMovies(url,'.original__movies','backdrop_path')
+    fetchMovies(url,'.original__movies','poster_path')
 
 
   }
