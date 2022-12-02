@@ -1,4 +1,4 @@
-This is my first Project and this is a very basic Netflix Clone done with only Vanilla Js and Bootstrap 
+This is my first project and this is a very basic NETFLIX Clone done with only Vanilla Js and Bootstrap 5.
 Hope you Like it 😊
 
 
