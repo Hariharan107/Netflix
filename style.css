@@ -19,7 +19,14 @@ body {
     border-radius: 4px;
     width: 100px;
   }
-  
+  .overflow-auto
+  {
+    scrollbar-width: none; 
+  }
+  /* .text-danger
+  {
+    font-size: 20px;
+  } */
   .dropdown span {
     cursor: pointer;
   }
@@ -98,7 +105,7 @@ body {
   }
   
   .featured {
-    height: 400px;
+    height: 450px;
     position: relative;
     background-image: url(Images/house-of-the-dragon-syrax-rhaenyra-targaryens-dragon-milly-4200x2160-8382.jpg);
     background-size: cover;
@@ -107,6 +114,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  h4{
+    font-size: 23px;
+    width: 117%;
+    padding-left: 34px;
   }
   .logo{
    position: relative;
@@ -143,7 +155,7 @@ body {
     z-index: 10;
   }
   
-  /* .featured .featured__buttons {
+  .featured .featured__buttons {
     z-index: 10;
   }
   
@@ -154,7 +166,7 @@ body {
     border: none;
     padding: 8px 24px;
     border-radius: 4px;
-  } */
+  }
   
   .featured::before {
     content: '';
@@ -165,12 +177,12 @@ body {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.3);
   }
-/*   
+
   .featured .featured__buttons .button__play {
     background-color: white;
     color: black;
   }
-   */
+   
   .button__play i {
     margin-right: 6px;
   }
